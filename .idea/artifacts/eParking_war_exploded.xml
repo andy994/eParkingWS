@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="eParking:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/eParking_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="eParking" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="JAX-WS-Apache Axis" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/dom4j-1.6.1.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="eParking/web/Web" />
+    </root>
+  </artifact>
+</component>
